@@ -11,6 +11,9 @@ public class Program {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Good Morning!!");
+        System.out.println();
+
         System.out.print("How many employees will be registered? ");
         int n = sc.nextInt();
 
