@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3626c77f-2c04-4ab4-8999-88be4262f161" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/ProgramTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/ImportedProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/TaxPayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/UsedProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/exceptions/DomainException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ProgramEmployees.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +29,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/application/Program.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="373">
+              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+              <folding>
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/ProgramAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,24 +65,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/Employees.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/entities/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="729">
+              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
               <folding>
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +86,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>%n</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\n</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,26 +103,42 @@
         <option value="$PROJECT_DIR$/src/course/Program.java" />
         <option value="$PROJECT_DIR$/src/course/Main.java" />
         <option value="$PROJECT_DIR$/src/entities/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/entities/Product.java" />
         <option value="$PROJECT_DIR$/src/entities/Employees.java" />
         <option value="$PROJECT_DIR$/src/application/Program.java" />
+        <option value="$PROJECT_DIR$/src/application/ProgramEmployees.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cient.java" />
+        <option value="$PROJECT_DIR$/src/entities/enums/OrderStatus.java" />
+        <option value="$PROJECT_DIR$/src/application/ProgramOrder.java" />
+        <option value="$PROJECT_DIR$/src/entities/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/entities/Order.java" />
+        <option value="$PROJECT_DIR$/src/entities/Client.java" />
+        <option value="$PROJECT_DIR$/src/entities/Product.java" />
+        <option value="$PROJECT_DIR$/src/entities/ImportedProduct.java" />
+        <option value="$PROJECT_DIR$/src/entities/UsedProduct.java" />
+        <option value="$PROJECT_DIR$/src/application/ProgramProduct.java" />
+        <option value="$PROJECT_DIR$/src/entities/TaxPlayer.java" />
+        <option value="$PROJECT_DIR$/src/application/ProgramTax.java" />
+        <option value="$PROJECT_DIR$/src/entities/Individual.java" />
+        <option value="$PROJECT_DIR$/src/entities/Company.java" />
+        <option value="$PROJECT_DIR$/src/entities/exceptions/DomainException.java" />
+        <option value="$PROJECT_DIR$/src/entities/Account.java" />
+        <option value="$PROJECT_DIR$/src/application/ProgramAccount.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="232" />
-    <option name="y" value="98" />
-    <option name="width" value="1279" />
-    <option name="height" value="906" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="990" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,18 +146,39 @@
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548350929056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548953977293" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -121,22 +195,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.Main" />
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.Program" />
+  <component name="RunManager" selected="Application.ProgramAccount">
+    <configuration name="ProgramAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramAccount" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +209,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.Program" />
+    <configuration name="ProgramEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramEmployees" />
       <module name="course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course.*" />
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramOrder" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramProduct" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.ProgramTax" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,9 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program (1)" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProgramAccount" />
+        <item itemvalue="Application.ProgramTax" />
+        <item itemvalue="Application.ProgramProduct" />
+        <item itemvalue="Application.ProgramOrder" />
+        <item itemvalue="Application.ProgramEmployees" />
       </list>
     </recent_temporary>
   </component>
@@ -182,12 +284,16 @@
       <workItem from="1548096611811" duration="672000" />
       <workItem from="1548156128741" duration="5126000" />
       <workItem from="1548240305919" duration="1331000" />
-      <workItem from="1548334321571" duration="7520000" />
+      <workItem from="1548334321571" duration="10552000" />
+      <workItem from="1548413147543" duration="6205000" />
+      <workItem from="1548616933977" duration="168000" />
+      <workItem from="1548678736380" duration="5560000" />
+      <workItem from="1548950729529" duration="3044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14649000" />
+    <option name="totallyTimeSpent" value="32658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,9 +305,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="98" width="1279" height="906" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="990" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31285366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23504274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36363637" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36302894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -218,7 +324,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41536748" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32923833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -239,13 +345,43 @@
     <entry file="file://$PROJECT_DIR$/src/course/Program.java" />
     <entry file="file://$PROJECT_DIR$/src/course/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/entities/Triangle.java" />
-    <entry file="file://$PROJECT_DIR$/src/entities/Product.java">
+    <entry file="file://$PROJECT_DIR$/course.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/OrderItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/enums/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/ProgramOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/ProgramEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -254,30 +390,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/UsedProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="555">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/ImportedProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/ProgramProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/ProgramTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Individual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/TaxPayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/exceptions/DomainException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/ProgramAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
